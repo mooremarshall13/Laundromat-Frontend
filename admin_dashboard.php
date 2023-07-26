@@ -137,7 +137,7 @@
         <div class="side-bar">
             <span>Main Menu</span>
             <a href="#">Dashboard</a>
-            <a href="#">History</a>
+            <a href="../list_user.php">View All User</a>
             <form method="GET">
                 <input type="submit" name="logout" value="Log-out">
             </form>
@@ -381,6 +381,7 @@
     .second-container{
         width: 60%;
         height: 100%;
+        
     }
     
 
@@ -407,6 +408,7 @@
         padding-top: 5px;
         align-items: center;
         text-align: center;
+        
     }
     select{
         height: 30px;
@@ -444,7 +446,8 @@
         padding: 20px;
         background: #fff;
         border-radius: 10px;
-        height: 95%
+        height: 95%;
+        box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
         
 
     }
