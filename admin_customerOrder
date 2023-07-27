@@ -23,12 +23,8 @@
     <div class="container">
         <div class="side-bar">
             <span>Main Menu</span>
-            <a href="customer/admin_dashboard.php">Dashboard</a>
-            <div class="logout">
-            <form method="GET">
-                <input type="submit" name="logout" value="Log-out" class="logout">
-            </form>
-            </div>
+            <a href="#">Back</a>
+            
         </div>
         <div class="main-container">
             <div class="second-container">
